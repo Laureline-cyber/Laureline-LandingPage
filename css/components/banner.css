@@ -1,0 +1,26 @@
+.banner {
+	color:black;
+	background-color: white;
+	background-image: url("../../image/image_de_fond.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	text-align: center;
+}
+
+.banner h1{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 8px;
+	font-size: 60PX;
+}
+
+.banner h2{
+	color: white;
+	font-family: 'Shadows Into Light';
+	font-size: 30PX;
+}
+
+.text-banner{
+	padding-top: 150px;
+}

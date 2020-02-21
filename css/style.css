@@ -1,0 +1,95 @@
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/button.css");
+
+body{
+	margin: 0;
+}
+
+.logo {
+	background-image: url("image/voyages.png");
+	position: absolute;
+	left: 20px;
+}
+
+.logo img {
+	width: 250px;
+}
+
+.pays h1{
+	color: black;
+	font-family: 'Shadows Into Light';
+	font-size: 57PX;
+	text-align: center;
+	text-decoration: black wavy underline;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.réseaux h3{
+	font-family: 'Shadows Into Light';
+	color: #b7472a;
+	font-size: 2.0em;
+}
+
+.réseaux{
+	text-align:center;
+	padding: 40px 0px;  
+}
+
+.end {
+	font-family: 'Shadows Into Light';
+	color: #b7472a;
+	font-size: 2em;
+	text-align: center;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .cards {
+  	justify-content: center;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .cards {
+  	flex-direction: column;
+  	flex-wrap: nowrap;
+  	align-items: center;
+  }
+   .logo img {
+	width: 200px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+   .cards {
+  	flex-direction: column;
+  	flex-wrap: nowrap;
+  	align-items: center;
+  }
+
+  .card {
+  	display: block;
+  }
+
+  .card img {
+  	width: 100%;
+  }
+
+  .logo img {
+	width: 150px;
+  }
+}
